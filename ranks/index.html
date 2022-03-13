@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Этот сайт предназначен для ознакомления с базовыми специализированными знаниями и соответствующей военно-морской терминологией для людей, которые являются или хотят стать военно-морскими профессионалами.">
+    <title>ВМФ LEXIS - Звания</title>
+    <link rel="stylesheet" href="../css/style_for_rank.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="https://mickhose-zitrop.github.io/vmf-lexis/" class="header__logo" title="Home">
+                    ВМФ LEXIS
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item" title="Home"><a href="https://mickhose-zitrop.github.io/vmf-lexis/"
+                                class="menu__link">Главная</a></li>
+                        <li class="menu__item" title="Ranks"><a
+                                href="https://mickhose-zitrop.github.io/vmf-lexis/ranks/"
+                                class="menu__link active">Звания</a>
+                        </li>
+                        <li class="menu__item" title="Ships"><a
+                                href="https://mickhose-zitrop.github.io/vmf-lexis/ships/" class="menu__link">Корабли</a>
+                        </li>
+                        <li class="menu__item" title="Terms"><a
+                                href="https://mickhose-zitrop.github.io/vmf-lexis/terms/" class="menu__link">Термины</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+            <div class="page__main-block main-block">
+                <div class="main-block__container _container">
+                    <div class="main-block__body">
+                        <h1 id="main-block__title">Звания</h1>
+                        <div id="main-block__text">Военно-морской флот Российской Федерации унаследовал звания
+                            советского Военно-морского флота, хотя знаки различия и форма были слегка изменены.
+                            Военно-морской флот в основном использует звания военно-морского образца, но также
+                            использует звания армейского образца для некоторых специализаций, включая военно-морскую
+                            авиацию, морскую пехоту, медицинскую и юридическу.</div>
+                        <div class="main-block__wrapper">
+                            <table id="main-block__table_contract">
+                                <tr>
+                                    <th class="table__title">Звания</th>
+                                    <td class="table__item">Матрос</td>
+                                    <td class="table__item">Старший матрос</td>
+                                    <td class="table__item">Старшина 2-ой статьи</td>
+                                    <td class="table__item">Старшина 1-ой статьи</td>
+                                    <td class="table__item">Главный старшина</td>
+                                    <td class="table__item">Главный корабельный старшина</td>
+                                    <td class="table__item">Мичман</td>
+                                    <td class="table__item">Старший мичман</td>
+                                </tr>
+                                <tr>
+                                    <th class="table__title">Призывной и контрактный состав ВМФ</th>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/seaman.png"
+                                            alt="Seaman"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/senior-seaman.png" alt="Senior seaman"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/petty-officer-2.png" alt="Petty officer 2nd"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/petty-officer-1.png" alt="Petty officer 1st"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/chief-petty-officer.png" alt="Chief petty officer"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/chief-ship`s-petty-officer.png"
+                                            alt="Chief ship`s petty officer"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/midshipman.png"
+                                            alt="Midshipman"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/senior-midshipman.png" alt="Senior midshipman"></td>
+                                </tr>
+                                <tr>
+                                    <th class="table__title">Ranks</th>
+                                    <td class="table__item" onclick="new Audio('../aud/seaman.mp3').play();"
+                                        title="[ˈsiː.mən]">Seaman</td>
+                                    <td class="table__item" onclick="new Audio('../aud/senior-seaman.mp3').play();"
+                                        title="[ˈsiːniə(r) ˈsiː.mən]">Senior seaman</td>
+                                    <td class="table__item" onclick="new Audio('../aud/petty-officer-2.mp3').play();"
+                                        title="[ˈpet.i ˈɒfɪsə(r) ˈsekənd]">Petty officer 2<sup>nd</sup></td>
+                                    <td class="table__item" onclick="new Audio('../aud/petty-officer-1.mp3').play();"
+                                        title="[ˈpet.i ˈɒfɪsə(r) fɜːst]">Petty officer 1<sup>st</sup></td>
+                                    <td class="table__item"
+                                        onclick="new Audio('../aud/chief-petty-officer.mp3').play();"
+                                        title="[tʃiːf ˈpet.i ˈɒfɪsə(r)]">Chief petty officer</td>
+                                    <td class="table__item"
+                                        onclick="new Audio('../aud/chief-ship`s-petty-officer.mp3').play();"
+                                        title="[tʃiːf ʃɪps ˈpet.i ˈɒfɪsə(r)]">Chief ship`s petty officer</td>
+                                    <td class="table__item" onclick="new Audio('../aud/midshipman.mp3').play();"
+                                        title="[ˈmɪdˌʃɪp.mən]">Midshipman</td>
+                                    <td class="table__item" onclick="new Audio('../aud/senior-midshipman.mp3').play();"
+                                        title=" [ˈsiːniə(r) ˈmɪdˌʃɪp.mən]">Senior midshipman</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="main-block__wrapper">
+                            <table id="main-block__table_contract">
+                                <tr>
+                                    <th class="table__title">Звания</th>
+                                    <td class="table__item">Младший лейтенант</td>
+                                    <td class="table__item">Лейтенант</td>
+                                    <td class="table__item">Старший лейтенант</td>
+                                    <td class="table__item">Лейтенант-капитан</td>
+                                    <td class="table__item">Капитан 3-го ранга</td>
+                                    <td class="table__item">Капитан 2-го ранга</td>
+                                    <td class="table__item">Капитан 1-го ранга</td>
+                                    <td class="table__item">Контр-адмирал</td>
+                                    <td class="table__item">Вице-адмирал</td>
+                                    <td class="table__item">Адмирал</td>
+                                    <td class="table__item">Адмирал флота</td>
+                                </tr>
+                                <tr>
+                                    <th class="table__title">Офицерский состав ВМФ</th>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/junior-lieutenant.png" alt="Junior lieutenant"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/lieutenant.png"
+                                            alt="Lieutenant"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/senior-lieutenant.png" alt="Senior lieutenant"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/lieutenant-commander.png" alt="Lieutenant commander"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/captain-3.png"
+                                            alt="Captain 3rd"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/captain-2.png"
+                                            alt="Captain 2nd"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/captain-1.png"
+                                            alt="Captain 1st"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/rear-admiral.png" alt="Rear admiral"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/vice-admiral.png" alt="Vice admiral"></td>
+                                    <td class="table__item_img"><img class="table__img" src="../img/rank/admiral.png"
+                                            alt="Admiral"></td>
+                                    <td class="table__item_img"><img class="table__img"
+                                            src="../img/rank/admiral-of-the-fleet.png" alt="Admral of the fleet"></td>
+                                </tr>
+                                <tr>
+                                    <th class="table__title">Ranks</th>
+                                    <td class="table__item" onclick="new Audio('../aud/junior-lieutenant.mp3').play();"
+                                        title=" [ˈdʒuːniə(r) lu:ˈten.ənt]">Junior lieutenant</td>
+                                    <td class="table__item" onclick="new Audio('../aud/lieutenant.mp3').play();"
+                                        title="[lu:ˈten.ənt]">Lieutenant</td>
+                                    <td class="table__item" onclick="new Audio('../aud/senior-lieutenant.mp3').play();"
+                                        title="[ˈsiːniə(r) lu:ˈten.ənt]">Senior lieutenant</td>
+                                    <td class="table__item"
+                                        onclick="new Audio('../aud/lieutenant-commander.mp3').play();"
+                                        title="[lu:ˈten.ənt kəˈmɑːn.dər]">Lieutenant commander</td>
+                                    <td class="table__item" onclick="new Audio('../aud/captain-3.mp3').play();"
+                                        title="[ˈkæptɪn θɜːd ræŋk]">Captain 3<sup>rd</sup> rank</td>
+                                    <td class="table__item" onclick="new Audio('../aud/captain-2.mp3').play();"
+                                        title="[ˈkæptɪn fɜːrstˈsekənd ræŋk]">Captain 2<sup>nd</sup> rank</td>
+                                    <td class="table__item" onclick="new Audio('../aud/captain-1.mp3').play();"
+                                        title="[ˈkæptɪn θɜːd ræŋk]">Captain 1<sup>st</sup> rank</td>
+                                    <td class="table__item" onclick="new Audio('../aud/rear-admiral.mp3').play();"
+                                        title="[rɪə(r) ˈæd.mɪ.rəl]">Rear admiral</td>
+                                    <td class="table__item" onclick="new Audio('../aud/vice-admiral.mp3').play();"
+                                        title=" [vaɪs ˈæd.mɪ.rəl]">Vice admiral</td>
+                                    <td class="table__item" onclick="new Audio('../aud/admiral.mp3').play();"
+                                        title="[ˈæd.mɪ.rəl]">Admiral</td>
+                                    <td class="table__item"
+                                        onclick="new Audio('../aud/admiral-of-the-fleet.mp3').play();"
+                                        title="[ˈæd.mɪ.rəl əv ðə fliːt]">Admiral of the fleet</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__main _container">
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <div class="footer__label"><a href="https://sevnvmu.mil.ru" target="_blank"
+                                    class="footer__link">САЙТ УЧИЛИЩА</a></div>
+                            <nav class="footer__menu menu-footer">
+                                <ul class="menu-footer__list">
+                                    <li class="menu-footer__item"><a href="https://mickhose-zitrop.github.io/vmf-lexis/"
+                                            class="menu-footer__link">Главная</a></li>
+                                    <li class="menu-footer__item"><a
+                                            href="https://mickhose-zitrop.github.io/vmf-lexis/ranks/"
+                                            class="menu-footer__link">Звания</a></li>
+                                    <li class="menu-footer__item"><a
+                                            href="https://mickhose-zitrop.github.io/vmf-lexis/ships/"
+                                            class="menu-footer__link">Корабли</a></li>
+                                    <li class="menu-footer__item"><a
+                                            href="https://mickhose-zitrop.github.io/vmf-lexis/terms/"
+                                            class="menu-footer__link">Термины</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__label">КОНТАКТЫ</div>
+                            <div class="footer__contacts contacts-footer">
+                                <a href="tel:+79782156190" class="contacts-footer__item contacts-footer__item_phone">+7
+                                    (978) 215-61-90</a>
+                                <a href="https://www.google.ru/maps/place/%D0%A4%D0%B8%D0%BB%D0%B8%D0%B0%D0%BB+%D0%9D%D0%92%D0%9C%D0%A3+(%D0%A1%D0%B5%D0%B2%D0%9F%D0%9A%D0%A3)/@44.6038603,33.4584461,15.44z/data=!4m12!1m6!3m5!1s0x40953ca24fefffff:0xf60fd5f7ad28cc39!2z0J3QsNGF0LjQvNC-0LLRgdC60L7QtSDQstC-0LXQvdC90L4t0LzQvtGA0YHQutC-0LUg0YPRh9C40LvQuNGJ0LU!8m2!3d44.5975766!4d33.4586289!3m4!1s0x40953b66e5cd7265:0x8c9138bb28019b1a!8m2!3d44.6093036!4d33.4653103"
+                                    target="_blank" class="contacts-footer__item contacts-footer__item_map">299057, г.
+                                    Севастополь, ул. Парковая, 1</a>
+                                <a style="cursor: pointer"
+                                    class="contacts-footer__item contacts-footer__item_email">mickhose-zitrop@mail.ru</a>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__label">СОЦСЕТИ</div>
+                            <div class="footer__social social">
+                                <a href="https://vk.com/zitrop" target="_blank" class="social__item vk">ВКонтакте<i
+                                        class="fab fa-vk"></i></a>
+                                <a href="https://github.com/MickhOse-Zitrop" target="_blank"
+                                    class="social__item youtube">Github<i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/mickzit/" target="_blank"
+                                    class="social__item instagram">Instagram<i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__container _container">
+                    <div class="footer__copy">Copyright ©2022 All rights reserved | This site is made with <i
+                            class="far fa-heart"></i> by MickhOse Zitrop</div>
+                </div>
+            </div>
+        </footer>
+        <div class="help">
+            <img id="help-button" src="../img/help.png" alt="help" onclick="help()">
+            <div id="help-window">
+                Для того, чтобы услышать произношение английского слова в таблице, нажмите на него.
+            </div>
+            <div id="close-button" onclick="close_help()"><i class="fas fa-times"></i></div>
+        </div>
+    </div>
+    <script src="../js/script_for_rank.js"></script>
+</body>
+
+</html>
