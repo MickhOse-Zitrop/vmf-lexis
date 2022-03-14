@@ -4,7 +4,7 @@ document.getElementById('main-block__title').addEventListener('click', function(
     this.textContent = this.textContent == 'Сообразительный' ? 'Soobrazitelnyy' : 'Сообразительный';
 });
 document.getElementById('main-block__text').addEventListener('click', function(){
-    this.textContent = this.textContent == 'A corvette in the Baltic Fleet. There are radar, electronic weapons, artillery, anti-aircraft and missile. Torpedo tubes for fighting submarines and an aviation group.' ? 'Корвет в составе Балтийского флота. Есть радиолокационное, радиоэлектронное вооружение, артиллерийское, зенитное и ракетное. Торпедные аппараты для борьбы с подлодками и авиационная группа.' : 'A corvette in the Baltic Fleet. There are radar, electronic weapons, artillery, anti-aircraft and missile. Torpedo tubes for fighting submarines and an aviation group.';
+    this.textContent = this.textContent == 'The corvette belongs to the Baltic Fleet. It is equipped with radar, electronic, artillery, anti-aircraft and missile weapons. It is armed with torpedo tubes to fight submarines. There is also an aviation group.' ? 'Корвет в составе Балтийского флота. Есть радиолокационное, радиоэлектронное вооружение, артиллерийское, зенитное и ракетное. Торпедные аппараты для борьбы с подлодками и авиационная группа.' : 'The corvette belongs to the Baltic Fleet. It is equipped with radar, electronic, artillery, anti-aircraft and missile weapons. It is armed with torpedo tubes to fight submarines. There is also an aviation group.';
 });
 
 
