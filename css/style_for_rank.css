@@ -255,9 +255,11 @@ body::-webkit-scrollbar-thumb{
 }
 .main-block__wrapper::-webkit-scrollbar{
     height: 8px;
+    border-radius: 12px;
 }
 .main-block__wrapper::-webkit-scrollbar-track{
     background: none;
+    border-radius: 12px;
 }
 .main-block__wrapper::-webkit-scrollbar-thumb{
     background: linear-gradient(to right, #636363, #000)no-repeat;
