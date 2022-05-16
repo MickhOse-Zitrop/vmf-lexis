@@ -261,6 +261,7 @@ body::-webkit-scrollbar-thumb{
 }
 .main-block__wrapper::-webkit-scrollbar-thumb{
     background: linear-gradient(to right, #636363, #000)no-repeat;
+    border-radius: 12px;
 }
 #main-block__table_contract {
     margin: 20px 0px 0px 0px;
